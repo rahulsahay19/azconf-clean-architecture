@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Movies.Application.Responses
+﻿namespace Movies.Application.Responses
 {
    public class MovieResponse
     {

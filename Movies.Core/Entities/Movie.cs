@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Movies.Core.Entities.Base;
+﻿using Movies.Core.Entities.Base;
 
 namespace Movies.Core.Entities
 {
