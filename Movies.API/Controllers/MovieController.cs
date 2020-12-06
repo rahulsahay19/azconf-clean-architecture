@@ -30,7 +30,7 @@ namespace Movies.API.Controllers
 
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status200OK)]
-        public async Task<ActionResult<MovieResponse>> CheckoutOrder([FromBody] CreateMovieCommand command)
+        public async Task<ActionResult<MovieResponse>> CreateMovie([FromBody] CreateMovieCommand command)
         {
             var result = await _mediator.Send(command);
             return Ok(result);
